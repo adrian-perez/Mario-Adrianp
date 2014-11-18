@@ -7,12 +7,12 @@ game.PlayerEntity = me.Entity.extend ({
         spriteheight: "128",
         width: 128,
         height: 128,
-        getShaped: function(){
+        getShape: function(){
             return (new me.Rect(0, 0, 128, 128)).toPolygon();
         }
       }]);
       
-    
+     
     this.body.setVelocity(5, 20);  
   },  
     
