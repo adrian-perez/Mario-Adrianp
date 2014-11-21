@@ -43,3 +43,9 @@ update: function(delta){
 }
 
 });
+
+me.LevelTrigger = me.Entity.extend({
+    
+    
+    
+});
