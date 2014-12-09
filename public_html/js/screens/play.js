@@ -9,7 +9,7 @@ game.PlayScreen = me.ScreenObject.extend({
                 me.levelDirector.loadLevel("AdrianLevel05");
                 
                 this.resetPlayer(0, 400);
-                
+                //Making your character move left or right. 
                 me.input.bindKey(me.input.KEY.RIGHT, "Right");
                 me.input.bindKey(me.input.KEY.LEFT, "Left");
                 
